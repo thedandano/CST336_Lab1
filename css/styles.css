@@ -3,8 +3,14 @@ body {
     color:white;
 }
 
-header, main, nav, footer {
+header, main, nav, footer, #content {
     text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
 }
 
 /* "nav a" limits these css rules to nav containers */
@@ -66,4 +72,8 @@ ul {
 
 .hobby {
     color: yellow;
+}
+
+iframe {
+    overflow:hidden;
 }
