@@ -1,2 +1,2 @@
 <?php include_once("index.html"); ?> 
-<?php include_once("styles.css"); ?> 
+<?php include_once("css/styles.css"); ?> 
