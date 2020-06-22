@@ -6,3 +6,34 @@ body {
 header, main, nav, footer {
     text-align: center;
 }
+
+/* "nav a" limits these css rules to nav containers */
+ nav a {  /*links within "nav" container */
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white;        /* by default, links are blue*/
+}
+
+/* adds a cool hover effect */
+nav a:hover { /*pseudo class*/
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s; /*this adds a transsision effect*/
+}
+
+main {
+    display: flex; /* flex box to display containers side by side */
+    justify-content: center; /* centers the connent */
+}
+
+nav .current {
+    color:orange;
+}
+
+footer {
+    font-size: small; /*Medium is the default*/
+    color:white;
+}
+
