@@ -77,3 +77,7 @@ ul {
 iframe {
     overflow:hidden;
 }
+.resize-logo {
+    width: 25%;
+    height: auto;
+}
